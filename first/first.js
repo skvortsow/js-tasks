@@ -15,4 +15,4 @@ function check(string){
 }
 
 
-console.log(check(string1));
+alert(check(string1));
