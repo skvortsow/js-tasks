@@ -1,4 +1,12 @@
-let string1 = prompt('Введите адрес файла:');
+
+const thirdBtn = document.querySelector('#thirdTask')
+
+
+thirdBtn.addEventListener('click', function(){
+    let string1 = prompt('Введите адрес файла:');
+    console.log(isHtml(string1))
+});
+
 function isHtml(string){
     let check;
     let newString = '';
@@ -15,4 +23,3 @@ function isHtml(string){
     return check;
 }
 
-console.log(isHtml(string1));
